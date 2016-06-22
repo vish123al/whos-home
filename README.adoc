@@ -1,0 +1,31 @@
+= Who's Home Application
+
+This project is an extension of an awesome project [1] that was originally put
+together for Raspberry Pi. We have modified it to run in a docker container
+that will eventually feed into a physical Raspberry Pi device.
+
+== Objective
+Our objective is to demonstrate the software development lifecycle using docker
+and OpenShift for doing development that is orchestrated by a CI/CD tool for
+testing and deploying onto a physical Raspberry Pi device.
+
+== Getting Started
+
+. Docker
+
+== Infrastructure
+
+Diagram Placeholder
+
+.NGINX
+.Bluetooth
+
+== DevOps Pipeline
+
+== Contributors
+
+== References
+
+. http://www.instructables.com/id/Raspberry-Pi-Bluetooth-InOut-Board-or-Whos-Hom/?ALLSTEPS
+. https://github.com/docker/docker/issues/16208
+. https://help.ubuntu.com/community/BluetoothSetup
