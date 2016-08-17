@@ -8,3 +8,4 @@ scratch/
 .DS_Store
 publickeys/*.pub
 venv
+docs/3RPiSetupDiagram.pptx
