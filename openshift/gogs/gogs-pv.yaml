@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv0006
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  nfs:
+    path: /sniffers-gogs
+    server: 128.49.90.63
+  persistentVolumeReclaimPolicy: Retain

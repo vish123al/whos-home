@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv0002 
+spec:
+  capacity:
+    storage: 5Gi 
+  accessModes:
+  - ReadWriteOnce 
+  nfs: 
+    path: /sniffers-jenkins
+    server: 128.49.90.63 
+  persistentVolumeReclaimPolicy: Retain

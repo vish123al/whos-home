@@ -1,0 +1,10 @@
+secrets
+support/docker/mysql/docker-entrypoint.sh
+support/docker/mysql/test.sh
+support/docker/mysql/partclean.sh
+phpwork-schema-withDBCreate_and_sample_data_28Jul2016.sql
+.openshift
+scratch/
+.DS_Store
+publickeys/*.pub
+venv
